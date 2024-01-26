@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Tree Pass"
+        android:textSize="40dp"
+        android:id="@+id/login_title_text"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:password="true"
+        android:id="@+id/login_pass_text"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Enter the chamber of secrets"
+        android:background="@drawable/button"
+        android:id="@+id/login_pass_button"/>
+
+</LinearLayout>

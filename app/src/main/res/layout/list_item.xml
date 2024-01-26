@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    android:background="@drawable/list_back">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:text="A"
+        android:gravity="center"
+        android:textColor="#880606"
+        android:textSize="80dp"
+        android:id="@+id/list_item_alpha"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3.8"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Amazon"
+            android:paddingTop="5dp"
+            android:paddingLeft="15dp"
+            android:textColor="#880606"
+            android:textSize="35dp"
+            android:gravity="center_vertical"
+            android:id="@+id/list_item_title"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:lines="3"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:text="Password: asdagsvrvrvrasaf
+Email:dddsfjsdkfjsdjf@skjdf.com
+sfddsf akjfdskjf "
+            android:id="@+id/list_item_data"
+            android:textColor="#fff3e2"/>
+
+
+
+    </LinearLayout>
+    
+
+</LinearLayout>

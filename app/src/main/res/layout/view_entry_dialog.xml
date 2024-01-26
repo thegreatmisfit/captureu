@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#142954"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/view_entry_dialog_title"
+        />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:gravity="top|left"
+        android:scrollbars="vertical"
+        android:layout_margin="10dp"
+        android:id="@+id/view_entry_dialog_data"
+        android:padding="10dp"
+        android:textSize="15dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#7a0707"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#60bb0000"
+            android:id="@+id/view_entry_dialog_delete_button"
+            android:text="Delete"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#60bb0000"
+            android:text="Edit"
+            android:id="@+id/view_entry_dialog_edit_button"/>
+    </LinearLayout>
+</LinearLayout>
